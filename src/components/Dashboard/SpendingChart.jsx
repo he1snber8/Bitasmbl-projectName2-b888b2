@@ -1,0 +1,1 @@
+import React from 'react';function SpendingChart({data=[]}){return(<section aria-labelledby="chart-heading"><h3 id="chart-heading">Spending trend</h3><div role="img" aria-describedby="chart-desc">{/* chart lib here */}</div><p id="chart-desc">Monthly spending trend summary goes here for screen readers.</p></section>);}export default SpendingChart;
