@@ -1,0 +1,1 @@
+import React from 'react';function CategoryFilter({categories=[],value,onChange}){return(<fieldset><legend>Categories</legend><select value={value} onChange={e=>onChange(e.target.value)}><option value="all">All</option>{categories.map(c=>(<option key={c} value={c}>{c}</option>))}</select></fieldset>);}export default CategoryFilter;
