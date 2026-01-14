@@ -1,0 +1,1 @@
+import React from 'react';import './styles.css';function App(){return(<div><header><h1>Finance Dashboard</h1></header><main><p>TODO: dashboard</p></main></div>);}export default App;
