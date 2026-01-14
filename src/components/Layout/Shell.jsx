@@ -1,0 +1,1 @@
+import React from 'react';function Shell({children}){return(<div className="shell"><header><a href="#main" className="skip-link">Skip to content</a><h1>Spending Overview</h1></header><nav aria-label="Primary"><ul><li><button>Dashboard</button></li></ul></nav><main id="main">{children}</main></div>);}export default Shell;
