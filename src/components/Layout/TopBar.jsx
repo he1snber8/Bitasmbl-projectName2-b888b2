@@ -1,0 +1,1 @@
+import React from 'react';function TopBar(){return(<div role="banner" className="topbar"><h1 aria-label="Personal finance dashboard">Finance</h1><button aria-label="Open settings">⚙</button></div>);}export default TopBar;
