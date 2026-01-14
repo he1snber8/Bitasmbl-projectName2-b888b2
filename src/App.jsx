@@ -1,1 +1,1 @@
-import React from 'react';import './styles.css';function App(){return(<div><header><h1>Finance Dashboard</h1></header><main><p>TODO: dashboard</p></main></div>);}export default App;
+import React from 'react';import './styles.css';import Shell from './components/Layout/Shell.jsx';import TopBar from './components/Layout/TopBar.jsx';function App(){return(<Shell><TopBar/><section aria-labelledby="dash-heading"><h2 id="dash-heading">Dashboard</h2></section></Shell>);}export default App;
