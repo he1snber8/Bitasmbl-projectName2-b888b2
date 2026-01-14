@@ -1,0 +1,1 @@
+export function focusElement(el){if(el&&typeof el.focus==='function'){el.focus();}}export function storeAndFocus(newEl){const prev=document.activeElement;focusElement(newEl);return()=>focusElement(prev);} 
