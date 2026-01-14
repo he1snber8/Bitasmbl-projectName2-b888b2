@@ -1,0 +1,1 @@
+import React from 'react';function DateRangeFilter({value,onChange}){return(<fieldset><legend>Date range</legend><select value={value} onChange={e=>onChange(e.target.value)}><option value="30d">Last 30 days</option><option value="90d">Last 90 days</option></select></fieldset>);}export default DateRangeFilter;
